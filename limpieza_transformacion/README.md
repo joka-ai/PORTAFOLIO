@@ -1,14 +1,8 @@
 # 📊 Limpieza de Datos – Netflix Dataset
 
-Este proyecto se centra en la **limpieza y transformación de datos** del catálogo de Netflix, preparando el dataset para futuros análisis y visualizaciones.
+Este proyecto se centra en la limpieza y transformación de datos del catálogo de Netflix. Se realizó una limpieza general del dataset, sin una pregunta base específica ni un objetivo de análisis definido; el enfoque principal fue preparar los datos para futuros análisis y visualizaciones.
 
 Dataset: [`netflix_titles.csv` – Netflix Movies and TV Shows (Kaggle)](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
-
----
-
-## 🔹 Objetivo
-Limpiar y normalizar los datos del catálogo de Netflix para asegurar consistencia, legibilidad y trazabilidad de los valores imputados.
-
 ---
 
 ## 🔹 Qué se hizo
