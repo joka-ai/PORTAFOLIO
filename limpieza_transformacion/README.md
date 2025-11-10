@@ -38,7 +38,7 @@ Dataset: [`netflix_titles.csv` – Netflix Movies and TV Shows (Kaggle)](https:/
 
 ---
 
-## 🔹 Tecnologías utilizadas
+## 🔹 Herramientas
 - Python 3
 - Pandas
 - NumPy
