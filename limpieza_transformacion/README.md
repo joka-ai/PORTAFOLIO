@@ -48,6 +48,3 @@ Limpiar y normalizar los datos del catálogo de Netflix para asegurar consistenc
 - Pandas
 - NumPy
 
-
----
-
