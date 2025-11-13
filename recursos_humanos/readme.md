@@ -75,32 +75,9 @@ Las acciones de retención deberían enfocarse en:
 
 ---
 
-## 📂 Estructura del Proyecto
-
-recursos_humanos/
-│ run_pipeline.py
-│ config.yaml
-│ README.md
-│
-├── data/
-│ └── WA_Fn-UseC_-HR-Employee-Attrition.csv
-│
-├── outputs/
-│ ├── modelos
-│ ├── visualizaciones
-│ └── tablas
-│
-└── src/
-├── limpieza.py
-├── eda.py
-├── modelado.py
-└── utils.py
-
-
----
-
 ## ▶️ Ejecución del Pipeline
 
 ```bash
 python -m pip install -r requirements.txt
 python run_pipeline.py --config config.yaml
+
