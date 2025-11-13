@@ -153,26 +153,13 @@ def imputar_rating(df):
     return df.apply(_imputar, axis=1)
 
 
-# Función principal para limpiar dataset
 def limpiar_dataset(ruta_csv, guardar_csv=True):
     df = pd.read_csv(ruta_csv)
-    
-    # 2. LIMPIEZA DE TEXTOS
     df = limpiar_texto(df)
-    
-    # 6. NORMALIZACION DE LISTAS
     df = normalizar_listas(df)
-    
-    # 1. CORRECCION DE RATING (DURACION)
     df = corregir_rating_minutos(df)
-    
-    # 3. CONVERSION Y 5. IMPUTACION DE FECHAS
     df = imputar_fecha(df)
-    
-    # NORMALIZACION DE DURACION (VALOR Y UNIDAD)
     df = normalizar_duracion(df)
-    
-    # 5. IMPUTACION DE RATING
     df = imputar_rating(df)
     
     if guardar_csv:
@@ -191,3 +178,4 @@ def limpiar_dataset(ruta_csv, guardar_csv=True):
     print(df.isnull().sum())
     
     return df
+
